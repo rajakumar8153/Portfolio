@@ -1,6 +1,6 @@
-import websiteImg1 from './ecommerce-websites.jpg';
-import websiteImg2 from './food-ecommerce.jpg';
-import websiteImg3 from './website-blog.jpg';
+import websiteImg1 from './TESLA.avif';
+import websiteImg2 from './SPACEX.jpg';
+import websiteImg3 from './X.jpg';
 
 export default function Project() {
 
@@ -8,18 +8,18 @@ export default function Project() {
         projects : [
             {
                 image: websiteImg1,
-                description: 'A Ecommerce Website. Built with MERN Stack.',
-                link: 'https://github.com/jvlcode/jvlcart'
+                description: 'TESLA MOTOR CORP.',
+                link: 'https://www.tesla.com/'
             },
             {
                 image: websiteImg2,
-                description: 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
-                link: 'https://github.com/jvlcode/food'
+                description: 'SPACEX',
+                link: 'https://www.spacex.com/'
             },
             {
                 image: websiteImg3,
-                description: 'Basic Blog Website . Built with Next JS and MongoDB',
-                link: 'https://github.com/jvlcode/blog'
+                description: 'X.COM',
+                link: 'https://twitter.com/x'
             }
         ]
     }
@@ -27,7 +27,7 @@ export default function Project() {
     return <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-primary text-white">
         <div className="w-full">
             <div className="flex flex-col px-10 py-5">
-                <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold">Projects</h1>
+                <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold">COMPANIES</h1>
                 <p>These are some of my best projects. I have built these with React, MERN and vanilla CSS. Check them out.</p>
             </div>
         </div>
@@ -39,7 +39,7 @@ export default function Project() {
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5'>{project.description}</p>
                             <div className='flex justify-center'>
-                                <a className='btn' target='_blank' href={project.link}>View Project</a>
+                                <a className='btn' target='_blank' href={project.link}>View Company</a>
                             </div>
                         </div>
                     </div>
