@@ -2,9 +2,9 @@ import AboutImg from './about.png';
 
 export default function About () {
     const config  = {
-        line1: 'Hi, My name is ELON MUSK.I am a South African-born entrepreneur and businessman who founded X.com in 1999 (which later became PayPal)',
-        line2: 'SpaceX in 2002, and Tesla, Inc. in 2003. He is currently the CEO of SpaceX and Tesla, Inc.',
-        line3: 'In backend I know Node.js, Express.js, MongoDB, and Mongoose'
+        line1: "Hello, I am Elon Musk. I am an entrepreneur, engineer, and inventor with a passion for pushing the boundaries of technology to solve some of the world's most pressing problems.",
+        line2: ' You might know me as the CEO of SpaceX, where our goal is to make space travel more accessible and ultimately enable humanity to become a multiplanetary species.',
+        line3: 'SpaceX in 2002, and Tesla, Inc. in 2003. I am currently the CEO of SpaceX and Tesla, Inc.',
     }
 
     return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
