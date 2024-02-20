@@ -2,7 +2,7 @@
 export default function Contact () {
 
     const config = {
-        email : 'jvlcodevideos@gmail.com',
+        email : 'muskx7325@gmail.com',
         phone: '+45456565656'
     }
 
